@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     "apps.staffs",
     "apps.finance",
     "apps.result",
+    
 ]
 
 MIDDLEWARE = [
@@ -183,4 +184,5 @@ LOGGING = {
 
 DEFAULT_AUTO_FIELD = "django.db.models.AutoField"
 
+ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
 # Site Default values
